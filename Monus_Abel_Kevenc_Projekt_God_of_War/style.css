@@ -1,0 +1,129 @@
+body {
+    background-image: url(./Képek/hatter.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #191919;
+    color: white;
+}
+
+.navbar-collapse {
+    transition: 0.3s ease;
+}
+
+.logo {
+    width: 200px;
+    box-shadow: 0px 0px 20px 10px black;
+}
+
+.dropdown-menu {
+    background-color: #191919;
+}
+
+.dropdown-item:hover {
+    background-color: #191919;
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+header, main {
+    background-color: rgba(25, 25, 25, 0.582);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    margin: 15px;
+    font-size: 120%;
+}
+
+.kozepre {
+    text-align: center;
+    text-indent: 0;
+}
+
+main {
+    text-align: justify;
+}
+
+hr {
+    border: 1px solid white;
+}
+
+.vastagvonal {
+    border: 2px solid white;
+}
+
+p {
+    text-indent: 50px;
+}
+
+.kartyaszoveg {
+    text-indent: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card {
+    background-color: #1919196b;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.lablec {
+    text-indent: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    width: 200px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.kratos {
+    margin: auto;
+    width: 100%;
+}
+
+.szoveg {
+    font-size: 1.5rem;
+}
+
+.lista {
+    list-style: circle;
+}
+
+.cardbtn {
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    margin: auto;
+    font-size: 1.2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cardbtn:hover {
+    color: #191919;
+    background-color: white;
+}
